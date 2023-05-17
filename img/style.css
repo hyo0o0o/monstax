@@ -1,0 +1,157 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 헤더 스타일 */
+header{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+header nav{}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+header nav ul li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+
+/* 메인 콘텐츠 스타일 */
+main{
+    padding: 50px;
+    background-color: #111;
+    color: #fff;
+}
+section{
+    position: relative;
+    margin-bottom: 50px;
+}
+h1, h2{
+    font-weight: normal;
+    text-align: center;
+    margin: 20px;
+}
+button{
+    position: absolute;
+    left: 172px;
+    top: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-style: none;
+}
+button:hover{
+    background-color: #333;
+    color: #888;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    border-bottom: 1px solid #fff;
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* home */
+
+#home{
+    position: relative;
+    border-bottom: 1px solid #333;
+    margin-bottom: 30px;
+}
+#home h1{
+    font-size: 30px;
+    padding: 30px;
+}
+#home .image-container{
+    display: flex;
+    justify-content: center;
+}
+#home img{
+    text-align: center;
+    width: 100vh;
+}
+#home p{
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* members */
+.members{
+    border-bottom: 1px solid #333;
+}
+.swiper-wrapper .swiper-slide .img{
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+}
+.swiper-slide{
+    width: 500px;
+    height: 800px;
+    float: left;
+}
+
+
+/* music */
+#music{
+    border-bottom: 1px solid #333;
+}
+#music h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+}
+#music ul{}
+#music ul li{
+    padding: 10px;
+}
+#music ul li:last-child{
+    content: "";
+    margin-bottom: 30px;
+}
+
+/* videos */
+#videos{
+    border-bottom: 1px solid #333;
+}
+#videos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+#videos ul{}
+#videos ul li{
+    padding: 10px;
+}
+#videos ul li:last-child{
+    content: "";
+    margin-bottom: 30px;
+}
